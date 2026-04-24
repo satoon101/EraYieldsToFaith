@@ -1,0 +1,20 @@
+<Mod id="e12ce416-80c1-4e91-814e-9f47e69fe323" version="1">
+    <Properties>
+        <Name>Era Yields to Faith</Name>
+        <Description>Updates some yield changes to use faith instead of science or culture.</Description>
+        <Teaser>No science or culture yields</Teaser>
+        <Authors>satoon101</Authors>
+        <CompatibleVersions>2.0</CompatibleVersions>
+    </Properties>
+    <InGameActions>
+        <UpdateDatabase id="Gameplay_Yield_Change_Updates">
+            <Properties>
+                <LoadOrder>500</LoadOrder>
+            </Properties>
+            <File>db_updates.sql</File>
+        </UpdateDatabase>
+    </InGameActions>
+    <Files>
+        <File>db_updates.sql</File>
+    </Files>
+</Mod>
