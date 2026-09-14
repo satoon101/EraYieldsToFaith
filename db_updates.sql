@@ -9,3 +9,7 @@ WHERE YieldType IN ("YIELD_SCIENCE", "YIELD_CULTURE");
 -- UPDATE Improvement_YieldChanges
 -- SET YieldType = "YIELD_FAITH"
 -- WHERE ImprovementType = "IMPROVEMENT_GEOTHERMAL_PLANT";
+
+-- UPDATE Building_CitizenYieldChanges
+-- SET YieldType = "YIELD_FAITH"
+-- WHERE YieldType = "YIELD_SCIENCE";
